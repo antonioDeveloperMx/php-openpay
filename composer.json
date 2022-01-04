@@ -1,0 +1,20 @@
+{
+    "name": "joalm-library/php-openpay",
+    "description": "Liberia para implementar pasarela de pago openpay",
+    "type": "library",
+    "require": {
+        "openpay/sdk": "^3.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "JoalmLibrary\\PhpOpenpay\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "antonioDeveloperMx",
+            "email": "antoniolopez.developer@gmail.com"
+        }
+    ]
+}
